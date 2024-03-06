@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    border-radius: 10%
+}
+a {
+    color:aquamarine;
+}
+button:hover{
+    background-color: #f542c8;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s;
+    transform: scale(1.2);
+}
