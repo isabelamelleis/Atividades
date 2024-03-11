@@ -1,0 +1,103 @@
+* {
+    margin: 0;  
+}
+
+#abas {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 35px;
+    align-items: center;
+}
+
+#nome-pequeno-header {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 4px;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+#imagem-logo {
+    width: 40px;
+    padding: 15px;
+}
+
+#apresentacao-inicio {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    word-spacing: 6px;
+}
+
+#imagem-lupa {
+    padding: 15px;
+}
+
+#background-header {
+    display: flex;
+    background-image: url(imagens/back.gif);
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 70px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#section1 {
+    display: flex; /* divs ficam uma do lado da outra */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+}
+
+.divs-section-1{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-around; /* deixa as divs posicionadas o melhor possível com a página e suas bordas/margens/paddings */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-align: center; /* faz o texto ficar centralizado, que nem no docs */
+    align-items: center; /* faz as divs ficarem centralizadas entre si, que nem quando se quer deixar as coisas centralizadas no canva */
+    background-image: url(imagens/biblioteca.jpg);
+    background-position: center;
+    height: 400px;
+}
+
+#texto-section-2 {
+    padding-right: 200px;
+    line-height: 50px;
+}
+
+#imagem-section-2 {
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+section img {
+    margin: 10px; /* usado aqui para ter espaço entre as imagens e os <p> logo abaixo */
+}
