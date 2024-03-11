@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+    color: blueviolet;
+}
+
+
+#section-1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+#section-2 {
+    display: flex;
+    padding-left: 15%;
+}
+
+#section-3 {
+    display: flex;
+    padding-left: 25%;
+}
+
+#section-4 {
+    display: flex;
+    padding-left: 35%;
+}
+
+#section-5 {
+    display: flex;
+    padding-left: 45%;
+}
+
+#section-6 {
+    display: flex;
+    padding-left: 55%;
+}
+
+#section-7 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+#div-1 {
+    background-color: red;
+}
+
+#div-2 {
+    background-color: yellow;
+}
+
+#div-3 {
+    background-color: greenyellow;
+}
+
+#div-4 {
+    background-color: green;
+}
+
+#div-5 {
+    background-color: lightblue;
+}
+
+#div-6 {
+    background-color: blue;
+}
+
+#div-7 {
+    background-color: violet;
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+}
