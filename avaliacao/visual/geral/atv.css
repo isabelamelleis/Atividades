@@ -1,3 +1,7 @@
+* {
+    cursor: url(/visual/imagens/geral/emoji-quite.svg), default;
+}
+
 body {
     margin: 0;
     background-image: url(/visual/imagens/geral/ceu_nuvens.avif);
@@ -111,23 +115,32 @@ button:hover{
     color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s;
     transform: scale(1.2);
-}
-
-img {
-    height: 250px;
-    width: auto;
+    cursor: none;
 }
 
 #section-imagens-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5%;
+}
+
+#section-imagens-1 img {
+    height: 250px;
+    width: auto;
 }
 
 #section-imagens-2 {
     display: flex;
-    justify-content: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 5%;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    align-items: center;
+}
+
+#section-imagens-2 div {
+    width: 20%;
+}
+
+#section-imagens-2 img {
+    width: 100%;
+    height: 271px;
 }
